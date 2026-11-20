@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>My Task Manager</h1>
+            <button id="themeToggle">Toggle Dark Mode</button>
+            <p>Organize your day, achieve your goals!</p>
+        </header>
+
+        <main>
+            <section class="task-input">
+                <h2>Add New Task</h2>
+                   <div class="task-options">
+
+    <select id="taskCategory">
+        <option value="Study">Study</option>
+        <option value="Work">Work</option>
+        <option value="Personal">Personal</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <select id="taskPriority">
+        <option value="High">High Priority</option>
+        <option value="Medium" selected>Medium Priority</option>
+        <option value="Low">Low Priority</option>
+    </select>
+
+    <input type="date" id="taskDueDate">
+
+</div>
+                <input type="text"
+                       id="taskInput"
+                       placeholder="Enter your task...">
+
+                <button id="addTaskBtn">Add Task</button>
+            </section>
+
+            <section class="task-summary">
+                <div class="summary-card">
+                    <h3>Total Tasks</h3>
+                    <p id="totalTasks">0</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Completed</h3>
+                    <p id="completedTasks">0</p>
+                </div>
+
+                <div class="summary-card">
+                    <h3>Pending</h3>
+                    <p id="pendingTasks">0</p>
+                </div>
+            </section>
+        <section class="task-summary">
+    <!-- Tumhare existing 3 Summary Cards -->
+</section>
+
+<!-- YAHAN KANBAN BOARD CODE PASTE KARO -->
+
+<section class="kanban-section">
+    <h2>My Task Board</h2>
+
+    <div class="kanban-board">
+
+        <div class="kanban-column">
+            <h3>📌 To Do</h3>
+            <div id="todoColumn" class="kanban-tasks"></div>
+        </div>
+
+        <div class="kanban-column">
+            <h3>⚡ In Progress</h3>
+            <div id="progressColumn" class="kanban-tasks"></div>
+        </div>
+
+        <div class="kanban-column">
+            <h3>✅ Completed</h3>
+            <div id="completedColumn" class="kanban-tasks"></div>
+        </div>
+
+    </div>
+</section>
+
+<section class="task-list">
+    <h2>My Tasks</h2>
+</section>
+            <section class="task-list">
+                <h2>My Tasks</h2>
+                <div class="task-controls">
+
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search your tasks..."
+    >
+
+    <select id="filterTasks">
+        <option value="all">All Tasks</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+    </select>
+
+</div>
+                <ul id="taskList"></ul>
+            </section>
+        </main>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

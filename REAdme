@@ -1,0 +1,74 @@
+📝 To-Do List Application
+
+A modern and responsive To-Do List Application built using HTML, CSS, and JavaScript. It helps users organize daily tasks, manage priorities, track deadlines, and improve productivity.
+
+🚀 Features
+
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as completed
+- 🔍 Search tasks
+- 🔽 Filter tasks by status
+- 📂 Task categories (Study, Work, Personal, Other)
+- ⭐ Task priorities (High, Medium, Low)
+- 📅 Set task due dates
+- 🌙 Dark Mode / Light Mode
+- 💾 Save tasks using LocalStorage
+- 📊 Total, Completed and Pending task counters
+- 📋 Kanban Board (To Do, In Progress, Completed) – integration in progress
+
+🛠️ Technologies Used
+
+- HTML5 – Structure
+- CSS3 – Styling and Responsive Design
+- JavaScript – Functionality and Logic
+- Browser LocalStorage – Data Storage
+
+📁 Project Structure
+
+To-Do-List-App/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+
+💻 How to Run the Project
+
+1. Download or clone this repository.
+2. Open the project folder in VS Code.
+3. Open "index.html" in your browser.
+4. Start adding and managing your tasks.
+
+📸 Application Screenshots
+
+Add your project screenshots here:
+
+screenshots/
+├── home.png
+├── dark-mode.png
+└── kanban-board.png
+
+🎯 Project Objective
+
+The main objective of this project is to develop a simple and user-friendly task management application that helps users organize their daily activities and manage their time efficiently.
+
+🔮 Future Improvements
+
+- Task reminders and notifications
+- Calendar view
+- Advanced Kanban Board
+- Productivity analytics
+- Export and import tasks
+- User authentication
+
+👨‍💻 Developer
+
+Gaurav Kumar
+
+B.Tech – Computer Science Engineering
+
+📄 License
+
+This project is created for educational and learning purposes.
